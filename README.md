@@ -1,5 +1,5 @@
 # Science-Fiction-Calendar
-Will generate information about a planet's calendar system based on data about the planet's astronomical data.
+Will generate information about a planet's calendar system based on astronomical data.
 
 Can also be used for fantasy settings as well.
 
