@@ -38,7 +38,7 @@ def check_for_moon(astronomicalyear)
 		daysinmonth = gets.chomp.to_i
 		totalmonths = ((astronomicalyear/daysinmonth).to_i)
 		calendaryear = daysinmonth*totalmonths
-		leapdays = (astronomicalyear- calendaryear).to_i
+		leapdays = (astronomicalyear- calendaryear)
 		monthsperseason = (totalmonths/4)
 		puts "There are a total of #{totalmonths} months in our system."
 		puts "In every month, there are #{daysinmonth} days..."
