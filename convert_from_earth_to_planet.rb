@@ -10,14 +10,3 @@ def convert_earth_to_planet
 end
 
 convert_earth_to_planet
-##Convert From Earth Data to Planet Data
-### earthdays    	PlanetDay 	planetdays
-### -------    	 *	 ------- =   ---------
-### planetyear     earthDay    planetyears
-
-#Now. This only tells me planetdays. I want planet hours though.
-
-##I know one earthDay is equal to 24 hours.
-## X EarthDay    24 Hours
-## --------  * -------  =  Hours/PlanetDay
-## PlanetDay   1 EarthDay

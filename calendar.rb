@@ -62,21 +62,3 @@ def check_for_moon(astronomicalyear)
 end
 
 calendar_system
-
-=begin
-*Mercury*
-88 days
-=end
-
-  # puts "Decide if you want to use the local Planet day/hour units or if you want to use the"
-  # puts "local Planet day/hour units when using this calcuator. Type EARTH or PLANET."
-  # conversionfactor = gets.chomp.upcase.to_str
-  # raise ArgumentError.new("You can only choose between EARTH and PLANET") unless (conversionfactor == "EARTH" || conversionfactor == "PLANET")
-  # puts "That's okay. The next few questions will help us convert from the Earth-based system to the local planet's time system." if conversionfactor == "EARTH"
-  # puts "How many #{conversionfactor} days are in a year?"
-  # astronomicalyear = gets.chomp.to_f
-  # puts "We also need to know how many Earth hours it takes on your planet to rotate around the sun."
-
-  # puts "First of all, we are going to have to convert Earth Days to Planet Days."
-  # puts "So, tell me how many Earth Days does it take for your Planet to rotate around the sun?"
-  # puts earth = gets.chomp.to_f
